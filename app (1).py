@@ -62,6 +62,60 @@ c3.metric("Potential Anomalies", f"{potential_anomalies:,}")
 c4.metric("Extreme Readings", f"{extreme_readings:,}")
 
 st.divider()
+
+# AquaNexa Early-Warning Panel
+st.subheader("🚨 Early-Warning Panel")
+
+review_flags = [
+    "Potential anomaly - review required",
+    "Extreme reading - review required"
+]
+
+warning_data = filtered[
+    filtered["Data_Quality_Flag"].isin(review_flags)
+].copy()
+
+if warning_data.empty:
+    st.success("No readings requiring review in the selected filters.")
+else:
+    st.warning(
+        f"{len(warning_data):,} readings require data-quality review. "
+        "These flags do not confirm a groundwater emergency."
+    )
+
+    station_summary = (
+        warning_data.groupby(["Station", "District"], dropna=False)
+        .agg(
+            Readings_Requiring_Review=("Data_Quality_Flag", "size"),
+            Latest_Review_Time=("Data Acquisition Time", "max")
+        )
+        .reset_index()
+        .sort_values("Readings_Requiring_Review", ascending=False)
+    )
+
+    st.markdown("**Stations with the most readings requiring review**")
+    st.dataframe(
+        station_summary.head(15),
+        use_container_width=True,
+        hide_index=True
+    )
+
+    st.markdown("**Most recent readings requiring review**")
+    st.dataframe(
+        warning_data.sort_values(
+            "Data Acquisition Time", ascending=False
+        )[[
+            "Station",
+            "District",
+            "Data Acquisition Time",
+            LEVEL_COL,
+            "Data_Quality_Flag"
+        ]].head(20),
+        use_container_width=True,
+        hide_index=True
+    )
+
+st.divider()
 st.subheader("Groundwater-Level Trend")
 
 trend = filtered.sort_values("Data Acquisition Time")
