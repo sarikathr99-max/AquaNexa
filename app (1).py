@@ -238,3 +238,67 @@ map_fig.update_layout(
 )
 
 st.plotly_chart(map_fig, use_container_width=True)
+
+
+
+# AquaNexa Groundwater Prediction Module
+import joblib
+
+st.divider()
+st.subheader("🔮 Groundwater Level Prediction")
+
+st.info(
+    "Experimental prediction for Eliyarpathi using a Random Forest model. "
+    "This predicts the next recorded observation, which may not be exactly "
+    "six hours later. It is not an emergency warning."
+)
+
+@st.cache_resource
+def load_prediction_model():
+    return joblib.load("aquanexa_prediction_model.pkl")
+
+try:
+    package = load_prediction_model()
+    prediction_model = package["model"]
+    feature_names = package["features"]
+
+    station_name = package["station"]
+    station_history = (
+        df[df["Station"] == station_name]
+        .dropna(subset=["Data Acquisition Time", LEVEL_COL])
+        .sort_values("Data Acquisition Time")
+    )
+
+    station_history = station_history[
+        station_history[LEVEL_COL].between(-100, 100)
+    ].groupby("Data Acquisition Time", as_index=False)[LEVEL_COL].median()
+
+    if len(station_history) >= 4:
+        recent_levels = station_history[LEVEL_COL].tail(4).to_numpy()[::-1]
+        input_data = pd.DataFrame(
+            [recent_levels],
+            columns=feature_names
+        )
+
+        forecast = float(prediction_model.predict(input_data)[0])
+
+        st.markdown(f"**Selected station:** {station_name}")
+        st.metric(
+            "Predicted next groundwater reading",
+            f"{forecast:.3f} m"
+        )
+
+        st.caption(
+            f"Latest observation available: "
+            f"{station_history['Data Acquisition Time'].iloc[-1]}"
+        )
+
+        st.caption(
+            f"Test-set MAE: {package['mae']:.3f} m | "
+            f"Test-set RMSE: {package['rmse']:.3f} m"
+        )
+    else:
+        st.warning("Not enough historical readings to generate a prediction.")
+
+except Exception as e:
+    st.error(f"Prediction module could not load: {e}")
