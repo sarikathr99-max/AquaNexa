@@ -255,7 +255,7 @@ st.info(
 
 @st.cache_resource
 def load_prediction_model():
-    return joblib.load("aquanexa_prediction_model.pkl")
+    return joblib.load("aquanexa_selected_models_compressed.pkl")
 
 try:
     package = load_prediction_model()
