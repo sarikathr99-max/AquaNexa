@@ -1,0 +1,127 @@
+Station,District,Latitude,Longitude,Data Acquisition Time,Groundwater Level Telemetry 6 Hourly (meter),Data_Quality_Flag,Readings_Requiring_Review
+Gajalnaickanpatti,Tirupathur,12.2858,78.2742,2023-12-06 18:00:00,-5.999,No model anomaly flagged,20
+Eyyalur,Cuddalore,11.75666667,79.76111111,2023-12-08 18:00:00,-17.312,No model anomaly flagged,25
+Esanai (TN-12023D),Pudukkottai,10.34027778,78.75416667,2023-12-08 18:00:00,-3.795,No model anomaly flagged,6
+Chindalpadi,Dharmapuri,12.07527778,78.35861111,2023-12-08 18:00:00,-6.242,No model anomaly flagged,29
+Arsarkulam,Pudukkottai,10.197633,79.101363,2024-12-06 18:00:00,-33.16,No model anomaly flagged,6
+Attukulam,Madurai,9.71583333,77.85944444,2024-12-12 18:00:00,-5.009,No model anomaly flagged,30
+Chinnamanur,Theni,9.8458,77.3875,2025-12-01 18:00:00,-4.927,No model anomaly flagged,40
+Chellamudi,Dharmapuri,11.9444,77.8347,2025-12-02 18:00:00,-24.367,No model anomaly flagged,46
+Chindalpadi Pappireddipatti Dharmapuri Tamil Nadu,Dharmapuri,11.9153,78.3708,2025-12-02 18:00:00,-3.06,No model anomaly flagged,29
+Bogampatti,Coimbatore,10.9,77.1167,2025-12-02 18:00:00,-10.018,No model anomaly flagged,39
+Dusi Ayyangarkulam_1,Thiruvannamalai,12.7597,79.6806,2025-12-03 18:00:00,-8.401,No model anomaly flagged,28
+Aduthurai-3,Thanjavur,11.0167,79.4861,2025-12-04 18:00:00,-19.172,No model anomaly flagged,47
+alaganandal,Tiruvannamalai,12.004,79.054,2025-12-04 18:00:00,-1.916,No model anomaly flagged,42
+Ayyampalayam,Tiruchirappalli,10.9661,78.7153,2025-12-04 18:00:00,-4.144,No model anomaly flagged,37
+Chennasamuthiram,Tiruvannamalai,12.3081,78.7486,2025-12-04 18:00:00,-1.566,No model anomaly flagged,42
+B.P.agraharam,Erode,11.369,77.7083,2025-12-04 18:00:00,-3.269,No model anomaly flagged,46
+Bairanaickanpatti,Dharmapuri,12.0408,78.6439,2025-12-04 18:00:00,-7.823,No model anomaly flagged,50
+Anginayanapalli,Krishnagiri,12.5344,78.3894,2025-12-04 18:00:00,-18.733,No model anomaly flagged,47
+Elavamalai,Erode,11.428,77.6533,2025-12-04 18:00:00,-1.299,No model anomaly flagged,48
+Coonoor,Nilgiris,11.3583,76.8042,2025-12-04 18:00:00,-13.204,No model anomaly flagged,49
+Chinnakamanpatti,Virudhunagar,9.412961,77.867434,2025-12-06 18:00:00,-7.473,No model anomaly flagged,12
+Cheyyur_1,Ranipet,13.059976,79.700375,2025-12-06 18:00:00,-3.19,No model anomaly flagged,18
+Avaniyapuram,Madurai,9.883202,78.108798,2025-12-06 18:00:00,-6.025,No model anomaly flagged,12
+Ettankulam,Tirunelveli,8.863322,77.612511,2025-12-06 18:00:00,-6.528,No model anomaly flagged,3
+Arupathi,Mayiladuthurai,11.104937,79.710906,2025-12-06 18:00:00,-9.137,No model anomaly flagged,12
+Dusi_1,Thiruvannamalai,12.774281,79.682078,2025-12-06 18:00:00,-1.696,No model anomaly flagged,12
+Athaiyur,Kallakurichi,11.789361,79.155722,2025-12-06 18:00:00,-10.14,No model anomaly flagged,10
+Chittamur,Chengalpattu,12.405556,79.951944,2025-12-06 18:00:00,-1.254,No model anomaly flagged,14
+Duraisamypuram,Thoothukudi,9.216667,78.206944,2025-12-06 18:00:00,-3.189,No model anomaly flagged,7
+Bandarampalli,Krishnagiri,12.575382,78.166746,2025-12-06 18:00:00,-22.485,No model anomaly flagged,3
+Athamanjeri,Tiruvallur,13.245338,79.437587,2025-12-06 18:00:00,-6.711,No model anomaly flagged,7
+Andalur Gate (TN-MWSN02),Namakkal,11.445,78.1583,2025-12-07 18:00:00,-11.887,No model anomaly flagged,31
+Aralvoimozhi,Kanyakumari,8.253542,77.521299,2025-12-08 18:00:00,-21.67,No model anomaly flagged,13
+Beerakuppam,Tiruvallur,13.172706,79.503605,2025-12-08 18:00:00,-9.92,No model anomaly flagged,20
+Edamachi,Kancheepuram,12.696655,79.876065,2025-12-08 18:00:00,-3.11,No model anomaly flagged,18
+E.Pudupatti,Theni,10.1231,77.5775,2025-12-08 18:00:00,-13.465,No model anomaly flagged,48
+Arulambadi,Kallakurichi,12.006944,78.976111,2025-12-09 00:00:00,-5.76,No model anomaly flagged,14
+Cheranmahadevi,Tirunelveli,8.690519,77.56208,2025-12-09 18:00:00,-2.61,No model anomaly flagged,13
+Chinnambedu_3,Tiruvallur,13.32813,80.114367,2025-12-09 18:00:00,-7.35,No model anomaly flagged,21
+Chithamur,Chengalpattu,12.409167,79.892778,2025-12-09 18:00:00,0.79,No model anomaly flagged,21
+Chitheri,Kallakurichi,11.651972,79.028861,2025-12-09 18:00:00,-9.49,No model anomaly flagged,16
+Egaperumalur,Pudukkottai,10.141111,79.167222,2025-12-09 18:00:00,-7.24,No model anomaly flagged,16
+Eyyalur cuddalore NT,Cuddalore,11.1881,79.5158,2025-12-09 18:00:00,-15.389,No model anomaly flagged,32
+Agaramcheri,Vellore,12.8944,78.8972,2025-12-09 18:00:00,-3.68,No model anomaly flagged,48
+Cuddalore N.T,Cuddalore,11.756667,79.760556,2025-12-09 18:00:00,-4.766,No model anomaly flagged,21
+Erumaipatti_2,Salem,11.568302,77.916932,2025-12-09 18:00:00,-7.12,No model anomaly flagged,16
+Ammapettai,Thanjavur,10.792171,79.318985,2025-12-09 18:00:00,-25.86,No model anomaly flagged,14
+Ambappur,Ariyalur,11.3931,79.225,2025-12-09 18:00:00,-10.829,No model anomaly flagged,49
+Amaram_1,Salem,11.839319,77.960473,2025-12-09 18:00:00,39.01,No model anomaly flagged,14
+Allivilai,Kanyakumari,8.10105,77.55372,2025-12-09 18:00:00,-4.4,No model anomaly flagged,21
+Budalur_2,Thanjavur,10.785779,78.980127,2025-12-09 18:00:00,-3.61,No model anomaly flagged,17
+Andipatti_1,Dindigul,10.43772,77.346759,2025-12-09 18:00:00,-9.676,No model anomaly flagged,5
+Avanam_2,Thanjavur,10.331526,79.144656,2025-12-09 18:00:00,-18.61,No model anomaly flagged,16
+Belrampatti,Dharmapuri,12.309536,78.20115,2025-12-09 18:00:00,-4.9,No model anomaly flagged,15
+Eravar,Kallakurichi,11.6555,78.94775,2025-12-09 18:00:00,-5.15,No model anomaly flagged,15
+Eravankudi,Ariyalur,11.2889,79.4278,2025-12-11 12:00:00,-22.487,No model anomaly flagged,46
+Devadanapatti Devathanapatti,Theni,10.1014,77.6817,2025-12-11 12:00:00,-13.121,No model anomaly flagged,35
+Eliyarpathi,Madurai,9.79472222,78.095,2025-12-11 18:00:00,-9.506,No model anomaly flagged,55
+Ajjampatty,Dharmapuri,11.9283,78.2672,2025-12-11 18:00:00,-4.849,No model anomaly flagged,54
+A.Velampatti,Dharmapuri,12.1611,78.4342,2025-12-11 18:00:00,-13.759,No model anomaly flagged,54
+Alangulam_3,Virudhunagar,9.363886,77.678365,2025-12-12 00:00:00,-4.23,No model anomaly flagged,22
+Chennasandiram,Krishnagiri,12.8328,78.0233,2025-12-12 00:00:00,-23.013,No model anomaly flagged,51
+Chalakkadu,Namakkal,11.4217,78.4142,2025-12-12 12:00:00,-7.57,No model anomaly flagged,45
+Eppodumvendran,Thoothukudi,9.021228,78.048529,2025-12-12 18:00:00,-2.03,No model anomaly flagged,21
+Egapuram,Salem,11.6097,77.9614,2025-12-12 18:00:00,-0.97,No model anomaly flagged,50
+Eswaramoorthypalayam,Namakkal,11.5703,78.3967,2025-12-12 18:00:00,-28.398,No model anomaly flagged,50
+Appipalayam,Dindigul,10.6197,77.6008,2025-12-12 18:00:00,-43.717,No model anomaly flagged,54
+Budur_1,Tiruvallur,13.239463,80.19903,2025-12-12 18:00:00,-3.04,No model anomaly flagged,22
+Deivaseyalpuram,Thoothukudi,8.738312,77.91765,2025-12-12 18:00:00,-1.48,No model anomaly flagged,17
+Chengam,Tiruvannamalai,12.305,78.7922,2025-12-12 18:00:00,-8.34,No model anomaly flagged,48
+Ariyakudi,Ramanathapuram,9.40277778,78.68611111,2025-12-12 18:00:00,-15.699,No model anomaly flagged,48
+Arcot_1,Ranipet,12.902755,79.458147,2025-12-12 18:00:00,-4.84,No model anomaly flagged,22
+Elur_4,Namakkal,11.35252,78.10532,2025-12-12 18:00:00,-9.108,No model anomaly flagged,11
+Anchetty,Krishnagiri,12.3519,77.7203,2025-12-12 18:00:00,-6.201,No model anomaly flagged,54
+Arumparuthi,Vellore,12.968427,79.206932,2025-12-12 18:00:00,-3.3,Potential anomaly - review required,22
+Bellarampalli,Krishnagiri,12.504966,78.150809,2025-12-12 18:00:00,-3.17,No model anomaly flagged,14
+Eachankottai,Thanjavur,10.6625,79.1694,2025-12-12 18:00:00,-36.449,No model anomaly flagged,52
+Avaniperur Keelmugam,Salem,11.596685,77.848759,2025-12-12 18:00:00,-5.914,No model anomaly flagged,145
+Avanipur_1,Viluppuram,12.276537,79.817364,2025-12-12 18:00:00,9.671,No model anomaly flagged,19
+Ayankudi,Ramanathapuram,9.734017,78.783082,2025-12-12 18:00:00,-3.702,No model anomaly flagged,48
+Devanampattu,Tiruvannamalai,12.3853,79.0556,2025-12-12 18:00:00,-0.501,No model anomaly flagged,46
+Ariyalur_2,Ariyalur,11.13655,79.076372,2025-12-12 18:00:00,-14.85,No model anomaly flagged,16
+Chettikuruchi,Virudhunagar,9.445488,78.099721,2025-12-12 18:00:00,-4.87,No model anomaly flagged,22
+D.Gudalur,Dindigul,10.7878,78.1292,2025-12-12 18:00:00,-3.666,No model anomaly flagged,51
+Bangalapatti,Dindigul,10.1694,77.8097,2025-12-12 18:00:00,-7.95,No model anomaly flagged,47
+Chepauk_1,Chennai,13.061389,80.282778,2025-12-12 18:00:00,-3.31,No model anomaly flagged,17
+Chittarevu,Dindigul,10.4294,77.4136,2025-12-12 18:00:00,-7.575,No model anomaly flagged,49
+Arumanai,Kanyakumari,8.366433,77.248001,2025-12-12 18:00:00,-7.1,No model anomaly flagged,21
+Chinadharapuram,Karur,10.8514,77.8542,2025-12-12 18:00:00,-2.129,No model anomaly flagged,49
+Ayodhiyapattinam,Salem,11.6731,78.2467,2025-12-12 18:00:00,-10.332,No model anomaly flagged,52
+Aypedu,Vellore,13.106425,79.49115278,2025-12-12 18:00:00,-3.41,No model anomaly flagged,36
+Arani Town,Tiruvannamalai,12.6722,79.2833,2025-12-12 18:00:00,-1.853,No model anomaly flagged,51
+Ayyami Cheri,Kancheepuram,12.87159,79.8601,2025-12-12 18:00:00,-7.58,No model anomaly flagged,22
+Akkiyampatti,Tiruchirappalli,10.3575,78.34583,2025-12-12 18:00:00,-8.78,No model anomaly flagged,22
+Alagusamudram,Kancheepuram,12.64555556,80.02472222,2025-12-12 18:00:00,-0.923,No model anomaly flagged,52
+Chembarasanapalli,Krishnagiri,12.7083,78.025,2025-12-12 18:00:00,-10.946,No model anomaly flagged,46
+Arasunilai palayam,Tiruchirappalli,10.67167,78.34139,2025-12-12 18:00:00,1.0,No model anomaly flagged,22
+Bodinayakanur Bodi,Theni,9.7664,77.5642,2025-12-12 18:00:00,-3.128,No model anomaly flagged,32
+Anniyendal,Sivaganga,9.7555556,78.381111,2025-12-12 18:00:00,-3.59,No model anomaly flagged,14
+Avadi_2,Tiruvallur,13.118629,80.107921,2025-12-12 18:00:00,-4.09,No model anomaly flagged,23
+Anna Grammam,Cuddalore,11.78805556,79.60194444,2025-12-12 18:00:00,-21.189,No model anomaly flagged,48
+Boothapandi,Kanyakumari,8.26603,77.444655,2025-12-12 18:00:00,-2.48,No model anomaly flagged,21
+Aranthangi_2,Pudukkottai,10.173611,78.993333,2025-12-12 18:00:00,-1.28,No model anomaly flagged,21
+Adhamangalampudur,Thiruvannamalai,12.475914,78.990568,2025-12-12 18:00:00,-1.72,No model anomaly flagged,22
+Colachel_2,Kanyakumari,8.1788889,77.259722,2025-12-12 18:00:00,-18.39,No model anomaly flagged,21
+Alakarai,Tiruchirappalli,10.99056,78.38889,2025-12-12 18:00:00,-0.42,No model anomaly flagged,22
+Athinarayanapuram,Coimbatore,11.05139,77.0867,2025-12-12 18:00:00,-8.854,No model anomaly flagged,50
+Athani,Erode,11.546,77.5042,2025-12-12 18:00:00,-6.932,No model anomaly flagged,48
+Anaithalaiyur,Tirunelveli,8.852749,77.788536,2025-12-12 18:00:00,-4.16,No model anomaly flagged,22
+Chidambaram,Cuddalore,11.39222222,79.70194444,2025-12-12 18:00:00,-6.554,No model anomaly flagged,52
+Bandarahalli,Dharmapuri,12.2708,78.2528,2025-12-12 18:00:00,-6.426,No model anomaly flagged,46
+Aruppukottai_1,Virudhunagar,9.5272,78.1,2025-12-12 18:00:00,3.099,No model anomaly flagged,30
+Cuddalore - OT,Cuddalore,11.71388889,79.77222222,2025-12-12 18:00:00,-13.515,No model anomaly flagged,52
+Bhagavathipuram,Tenkasi,9.017763,77.194422,2025-12-12 18:00:00,-3.48,No model anomaly flagged,22
+Arayapatti,Pudukkottai,10.308348,78.984762,2025-12-12 18:00:00,-22.51,No model anomaly flagged,18
+Alangudi_1,Pudukkottai,10.36668,78.98145,2025-12-12 18:00:00,-24.593,No model anomaly flagged,21
+Chattirareddiapatti,Virudhunagar,9.6388889,77.962778,2025-12-12 18:00:00,-2.2,No model anomaly flagged,22
+Ammapet_1,Salem,11.661554,78.200273,2025-12-12 18:00:00,419.049,Extreme reading - review required,806
+Ayyampalayam_1,Dindigul,10.2314,77.7562,2025-12-12 18:00:00,-8.07,No model anomaly flagged,19
+Andimadam_1,Ariyalur,11.336877,79.376777,2025-12-12 18:00:00,-15.31,No model anomaly flagged,18
+Eragudi,Tiruchirappalli,11.1867,78.5064,2025-12-12 18:00:00,-1.03,No model anomaly flagged,22
+Appanandal,Kallakurichi,12.012455,79.267075,2025-12-12 18:00:00,-1.15,No model anomaly flagged,22
+Chokkanathapuram,Madurai,9.79722222,78.09972222,2025-12-12 18:00:00,-4.886,No model anomaly flagged,51
+Erumaipatti_1,Salem,11.4719,77.8703,2025-12-12 18:00:00,-0.641,No model anomaly flagged,35
+Edaiyathankudi,Ariyalur,11.0556,79.1556,2025-12-12 18:00:00,-4.522,No model anomaly flagged,53
+Ariyampatti,Salem,11.7172,77.9117,2025-12-12 18:00:00,-2.601,No model anomaly flagged,52
