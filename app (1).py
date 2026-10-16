@@ -257,12 +257,21 @@ st.info(
 def load_prediction_model():
     return joblib.load("aquanexa_selected_models_compressed.pkl")
 
+
 try:
     package = load_prediction_model()
-    prediction_model = package["model"]
-    feature_names = package["features"]
+    available_models = package["models"]
 
-    station_name = package["station"]
+    # Let the user select a station
+    station_options = sorted(df["Station"].dropna().unique().tolist())
+    st.markdown("### Groundwater Prediction")
+
+    station_name = st.selectbox(
+        "Select groundwater monitoring station",
+        station_options,
+        key="prediction_station"
+    )
+
     station_history = (
         df[df["Station"] == station_name]
         .dropna(subset=["Data Acquisition Time", LEVEL_COL])
@@ -273,32 +282,61 @@ try:
         station_history[LEVEL_COL].between(-100, 100)
     ].groupby("Data Acquisition Time", as_index=False)[LEVEL_COL].median()
 
-    if len(station_history) >= 4:
+    if len(station_history) >= 2:
         recent_levels = station_history[LEVEL_COL].tail(4).to_numpy()[::-1]
-        input_data = pd.DataFrame(
-            [recent_levels],
-            columns=feature_names
-        )
 
-        forecast = float(prediction_model.predict(input_data)[0])
+        if station_name in available_models and len(recent_levels) == 4:
+            item = available_models[station_name]
+            prediction_model = item["model"]
+            feature_names = item["features"]
 
-        st.markdown(f"**Selected station:** {station_name}")
-        st.metric(
-            "Predicted next groundwater reading",
-            f"{forecast:.3f} m"
-        )
+            input_data = pd.DataFrame(
+                [recent_levels],
+                columns=feature_names
+            )
+
+            forecast = float(prediction_model.predict(input_data)[0])
+
+            st.metric(
+                "Experimental predicted next reading",
+                f"{forecast:.3f} m"
+            )
+
+            st.caption("Prediction method: Random Forest")
+            st.caption(
+                f"Historical test MAE: {item['mae']:.3f} m | "
+                f"RMSE: {item['rmse']:.3f} m"
+            )
+
+        else:
+            # Persistence baseline: next value equals latest observation
+            forecast = float(station_history[LEVEL_COL].iloc[-1])
+
+            st.metric(
+                "Baseline estimate for next reading",
+                f"{forecast:.3f} m"
+            )
+
+            st.caption("Prediction method: Persistence baseline")
+            st.caption(
+                "This estimate carries forward the latest recorded level; "
+                "it is not a live measurement."
+            )
 
         st.caption(
-            f"Latest observation available: "
+            "Latest available observation: "
             f"{station_history['Data Acquisition Time'].iloc[-1]}"
         )
 
-        st.caption(
-            f"Test-set MAE: {package['mae']:.3f} m | "
-            f"Test-set RMSE: {package['rmse']:.3f} m"
+        st.info(
+            "Experimental estimate based on historical data. "
+            "It is not a real-time sensor reading or a confirmed groundwater warning."
         )
+
     else:
-        st.warning("Not enough historical readings to generate a prediction.")
+        st.warning(
+            "Not enough valid historical readings for this station."
+        )
 
 except Exception as e:
     st.error(f"Prediction module could not load: {e}")
