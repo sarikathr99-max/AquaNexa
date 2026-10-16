@@ -183,3 +183,58 @@ st.caption(
     "groundwater emergencies. Interpret recorded levels using the official "
     "measurement convention."
 )
+
+
+
+# --------------------------------------------------
+# AquaNexa Groundwater Monitoring Map
+# --------------------------------------------------
+
+st.divider()
+st.subheader("🗺️ Groundwater Monitoring Station Map")
+
+@st.cache_data
+def load_station_map():
+    return pd.read_csv("aquanexa_station_map.csv")
+
+map_data = load_station_map()
+
+map_data["Latitude"] = pd.to_numeric(map_data["Latitude"], errors="coerce")
+map_data["Longitude"] = pd.to_numeric(map_data["Longitude"], errors="coerce")
+
+map_data = map_data.dropna(subset=["Latitude", "Longitude"])
+
+st.caption(
+    "Select a station marker to view its latest available reading. "
+    "Reading dates are shown so older measurements are not mistaken for live data."
+)
+
+import plotly.express as px
+
+map_fig = px.scatter_map(
+    map_data,
+    lat="Latitude",
+    lon="Longitude",
+    hover_name="Station",
+    hover_data={
+        "District": True,
+        "Data Acquisition Time": True,
+        "Groundwater Level Telemetry 6 Hourly (meter)": True,
+        "Data_Quality_Flag": True,
+        "Readings_Requiring_Review": True,
+        "Latitude": False,
+        "Longitude": False
+    },
+    color="Data_Quality_Flag",
+    zoom=6,
+    center={"lat": 10.9, "lon": 78.4},
+    map_style="open-street-map",
+    title="Tamil Nadu Groundwater Monitoring Stations"
+)
+
+map_fig.update_layout(
+    height=650,
+    margin={"r": 0, "t": 50, "l": 0, "b": 0}
+)
+
+st.plotly_chart(map_fig, use_container_width=True)
