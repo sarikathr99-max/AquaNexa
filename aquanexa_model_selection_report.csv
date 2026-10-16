@@ -1,0 +1,124 @@
+Station,Readings,RF_MAE_m,RF_RMSE_m,Persistence_MAE_m,Persistence_RMSE_m,Selected_Model,Needs_Error_Review
+A.Velampatti,2670,1.8374,3.6347,1.2701,3.4873,Persistence Baseline,True
+Adhamangalampudur,1060,0.1975,0.3108,0.1499,0.3177,Persistence Baseline,False
+Aduthurai-3,2348,0.0845,0.2339,0.0721,0.2385,Persistence Baseline,False
+Agaramcheri,2346,0.8579,4.9136,1.029,6.9521,Random Forest,False
+Ajjampatty,2652,2.9428,3.2857,0.1694,0.4172,Persistence Baseline,True
+Akkiyampatti,1081,0.562,1.0164,0.382,0.9121,Persistence Baseline,False
+Alagusamudram,2599,0.2248,0.4197,0.2193,0.3983,Persistence Baseline,False
+Alakarai,1086,0.1845,0.3183,0.1303,0.2824,Persistence Baseline,False
+Alangudi_1,1031,2.6589,4.2154,5.0829,6.9638,Random Forest,True
+Alangulam_3,1085,0.5015,0.8729,0.3924,0.6436,Persistence Baseline,False
+Allivilai,1021,0.2048,0.3438,0.1724,0.3701,Persistence Baseline,False
+Amaram_1,711,5.9168,9.9892,3.3188,10.3121,Persistence Baseline,True
+Ambappur,2420,1.5791,2.3501,0.5689,1.3276,Persistence Baseline,True
+Ammapettai,657,0.5416,0.8915,0.4591,0.8754,Persistence Baseline,False
+Anaithalaiyur,1063,0.2791,0.5237,0.2092,0.4376,Persistence Baseline,False
+Anchetty,2700,0.3921,0.5664,0.3728,0.5697,Persistence Baseline,False
+Andalur Gate (TN-MWSN02),1549,0.8449,1.4821,0.5102,1.3522,Persistence Baseline,False
+Andimadam_1,872,0.1569,0.2459,0.102,0.2074,Persistence Baseline,False
+Andipatti_1,208,1.3543,1.9342,0.5007,1.5309,Persistence Baseline,True
+Anginayanapalli,2328,1.7998,2.9495,1.2244,2.4106,Persistence Baseline,True
+Anna Grammam,2401,0.8783,1.3031,0.3474,0.7051,Persistence Baseline,False
+Anniyendal,669,0.6456,1.321,0.6399,1.551,Persistence Baseline,False
+Appanandal,1066,0.3624,0.6287,0.3671,0.666,Random Forest,False
+Appipalayam,2670,3.3677,6.1796,1.4335,4.492,Persistence Baseline,True
+Aralvoimozhi,637,0.1068,0.1611,0.1337,0.3277,Random Forest,False
+Arani Town,2514,0.2602,0.5119,0.1941,0.2827,Persistence Baseline,False
+Aranthangi_2,1024,0.1832,0.3396,0.134,0.2872,Persistence Baseline,False
+Arasunilai palayam,1074,0.4995,1.392,0.3653,1.3701,Persistence Baseline,False
+Arayapatti,880,2.747,4.3509,2.7273,4.4423,Persistence Baseline,True
+Arcot_1,1064,0.9863,3.5707,0.7456,3.6653,Persistence Baseline,False
+Ariyakudi,2357,0.7836,1.2144,0.4582,0.9941,Persistence Baseline,False
+Ariyalur_2,790,0.6233,2.3606,0.7002,2.5965,Random Forest,False
+Ariyampatti,2556,1.2664,1.7685,1.1461,1.9999,Persistence Baseline,True
+Arsarkulam,289,1.4458,3.3747,2.6531,5.2802,Random Forest,True
+Arulambadi,679,0.7072,1.1546,0.4274,0.9984,Persistence Baseline,False
+Arumanai,1040,0.4336,0.7764,0.3343,0.7341,Persistence Baseline,False
+Arumparuthi,1057,0.4905,1.1703,0.3869,1.2242,Persistence Baseline,False
+Arupathi,594,0.2176,0.2781,0.1179,0.2445,Persistence Baseline,False
+Aruppukottai_1,1498,1.3681,1.6499,0.3408,0.8441,Persistence Baseline,True
+Athaiyur,468,0.3172,0.66,0.0368,0.0441,Persistence Baseline,False
+Athamanjeri,348,0.0853,0.1259,0.0435,0.0571,Persistence Baseline,False
+Athani,2370,0.9564,1.4174,0.4645,1.0744,Persistence Baseline,False
+Athinarayanapuram,2463,0.3632,0.7131,0.258,0.6668,Persistence Baseline,False
+Attukulam,1480,0.8385,1.1146,0.2131,0.4575,Persistence Baseline,False
+Avadi_2,1112,0.7006,1.1066,0.471,0.8909,Persistence Baseline,False
+Avanam_2,769,1.9977,3.1543,1.4182,2.8362,Persistence Baseline,True
+Avaniperur Keelmugam,573,0.867,1.7009,0.5853,1.845,Persistence Baseline,False
+Avanipur_1,917,1.3014,2.8296,0.9446,3.1321,Persistence Baseline,True
+Avaniyapuram,580,0.0476,0.0776,0.0463,0.0946,Persistence Baseline,False
+Ayankudi,2385,0.0787,0.1236,0.0796,0.1433,Random Forest,False
+Ayodhiyapattinam,2640,0.7833,1.2011,0.6585,1.1154,Persistence Baseline,False
+Aypedu,1786,0.531,1.1065,0.4581,1.143,Persistence Baseline,False
+Ayyami Cheri,1091,0.3986,0.6145,0.2901,0.6119,Persistence Baseline,False
+Ayyampalayam,1842,0.3084,0.5502,0.1362,0.3234,Persistence Baseline,False
+Ayyampalayam_1,944,0.2436,0.6103,0.218,0.5801,Persistence Baseline,False
+B.P.agraharam,2294,2.0279,4.6214,2.0807,5.4691,Random Forest,True
+Bairanaickanpatti,2464,1.2745,2.0034,1.2759,2.0906,Random Forest,True
+Bandarahalli,2255,0.7211,1.0115,0.3138,0.6164,Persistence Baseline,False
+Bangalapatti,2283,1.0054,1.6446,0.5268,1.3624,Persistence Baseline,True
+Beerakuppam,974,0.4261,0.813,0.4002,1.1532,Persistence Baseline,False
+Bellarampalli,667,0.4063,0.7233,0.3919,0.7941,Persistence Baseline,False
+Belrampatti,712,0.2206,0.3724,0.14,0.34,Persistence Baseline,False
+Bhagavathipuram,1072,0.3779,0.7276,0.2819,0.6015,Persistence Baseline,False
+Bodinayakanur Bodi,1566,0.2094,0.398,0.1145,0.3017,Persistence Baseline,False
+Bogampatti,1985,0.5811,1.0682,0.4231,1.3146,Persistence Baseline,False
+Boothapandi,1035,0.0723,0.1178,0.0451,0.0852,Persistence Baseline,False
+Budalur_2,849,0.3326,0.6469,0.262,0.5923,Persistence Baseline,False
+Budur_1,1076,0.5626,1.0312,0.3831,0.879,Persistence Baseline,False
+Chalakkadu,2239,1.1825,1.5283,1.2492,1.7191,Random Forest,True
+Chattirareddiapatti,1089,0.4367,0.9147,0.3861,0.977,Persistence Baseline,False
+Chellamudi,2272,3.2512,6.2146,1.4527,4.1201,Persistence Baseline,True
+Chembarasanapalli,2283,0.4713,1.243,0.4487,1.2379,Persistence Baseline,False
+Chengam,2378,0.2899,0.4564,0.2839,0.423,Persistence Baseline,False
+Chennasamuthiram,2052,0.1907,0.3448,0.1569,0.3273,Persistence Baseline,False
+Chennasandiram,2545,5.6091,11.2667,4.8067,9.102,Persistence Baseline,True
+Chepauk_1,804,0.1589,0.3176,0.1281,0.2959,Persistence Baseline,False
+Cheranmahadevi,637,0.1951,0.3245,0.1317,0.2846,Persistence Baseline,False
+Chettikuruchi,1097,0.5529,1.1037,0.5545,1.2333,Random Forest,False
+Cheyyur_1,889,0.3323,0.555,0.2943,0.5602,Persistence Baseline,False
+Chidambaram,2566,0.2496,0.4303,0.1481,0.3623,Persistence Baseline,False
+Chinadharapuram,2450,0.1538,0.296,0.1298,0.2754,Persistence Baseline,False
+Chindalpadi,1421,0.3386,0.6825,0.2154,0.5927,Persistence Baseline,False
+Chindalpadi Pappireddipatti Dharmapuri Tamil Nadu,1406,1.3998,2.3612,0.4501,2.2231,Persistence Baseline,True
+Chinnakamanpatti,570,0.109,0.2001,0.1036,0.2191,Persistence Baseline,False
+Chinnamanur,1974,0.5445,0.7671,0.5711,0.8244,Random Forest,False
+Chinnambedu_3,1035,0.8456,1.7402,0.7936,1.7276,Persistence Baseline,False
+Chithamur,1038,0.3069,0.7075,0.2737,0.7311,Persistence Baseline,False
+Chitheri,784,0.5283,0.9774,0.5711,1.3172,Random Forest,False
+Chittamur,657,0.1358,0.2141,0.0746,0.1549,Persistence Baseline,False
+Chittarevu,2415,1.1577,1.9982,0.6906,1.7316,Persistence Baseline,True
+Chokkanathapuram,2506,0.535,0.8323,0.2276,0.5732,Persistence Baseline,False
+Colachel_2,1034,0.1392,0.2164,0.1025,0.1977,Persistence Baseline,False
+Coonoor,2413,0.0161,0.0235,0.0138,0.0212,Persistence Baseline,False
+Cuddalore - OT,2566,0.3706,0.7285,0.1707,0.3177,Persistence Baseline,False
+Cuddalore N.T,1047,0.9361,1.617,0.4646,1.4539,Persistence Baseline,False
+D.Gudalur,2513,0.1784,0.2785,0.0894,0.2141,Persistence Baseline,False
+Deivaseyalpuram,810,0.2748,0.5346,0.1768,0.5056,Persistence Baseline,False
+Devadanapatti Devathanapatti,1729,0.5009,1.3238,0.4265,1.4045,Persistence Baseline,False
+Devanampattu,2253,0.2877,0.5273,0.2666,0.503,Persistence Baseline,False
+Duraisamypuram,349,0.0548,0.0963,0.0287,0.0363,Persistence Baseline,False
+Dusi Ayyangarkulam_1,1370,0.3323,0.6031,0.2696,0.619,Persistence Baseline,False
+Dusi_1,563,0.0835,0.1875,0.0672,0.2077,Persistence Baseline,False
+E.Pudupatti,2390,0.4979,0.9333,0.3558,0.8868,Persistence Baseline,False
+Eachankottai,2577,1.7483,2.7269,0.9348,1.8266,Persistence Baseline,True
+Edaiyathankudi,2607,0.9708,1.1495,0.0835,0.1801,Persistence Baseline,False
+Edamachi,872,0.0629,0.3326,0.0676,0.452,Random Forest,False
+Egaperumalur,792,0.3463,0.706,0.3509,0.759,Random Forest,False
+Egapuram,2500,0.2017,0.35,0.118,0.2412,Persistence Baseline,False
+Elavamalai,2370,0.1554,0.3002,0.1435,0.3345,Persistence Baseline,False
+Eliyarpathi,2727,0.6776,1.0872,0.1767,0.4001,Persistence Baseline,False
+Elur_4,525,0.6301,1.1421,0.3829,0.8309,Persistence Baseline,False
+Eppodumvendran,1030,0.1554,0.4355,0.1774,0.4598,Random Forest,False
+Eragudi,1081,0.3676,0.6865,0.2408,0.5575,Persistence Baseline,False
+Eravankudi,2277,2.341,4.6772,2.2242,4.9135,Persistence Baseline,True
+Eravar,784,0.4997,0.7166,0.3588,0.7895,Persistence Baseline,False
+Erumaipatti_1,1722,0.0913,0.1414,0.0804,0.1392,Persistence Baseline,False
+Erumaipatti_2,760,0.5336,0.9078,0.3344,0.834,Persistence Baseline,False
+Esanai (TN-12023D),282,0.0244,0.0352,0.1346,0.3653,Random Forest,False
+Eswaramoorthypalayam,2491,0.7266,1.6451,0.5532,1.8091,Persistence Baseline,False
+Eyyalur,1228,1.1644,2.2124,0.8009,2.1521,Persistence Baseline,True
+Eyyalur cuddalore NT,1569,1.1951,2.1695,0.6724,1.6763,Persistence Baseline,True
+Gajalnaickanpatti,999,0.3876,0.7006,0.3591,0.6956,Persistence Baseline,False
+alaganandal,2072,0.5427,0.868,0.3359,0.8284,Persistence Baseline,False
